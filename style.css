@@ -1,0 +1,12 @@
+ul{
+    background-color: bisque;
+}
+
+html { background-color: #D3D3D3;}
+body { background-color: white; }
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
