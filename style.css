@@ -1,12 +1,27 @@
-ul{
-    background-color: bisque;
-}
-
-html { background-color: #D3D3D3;}
-body { background-color: white; }
 
 #nav-bar {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    width: 1192px;
+    margin-left: 67px;
+    margin-right: 67px;
+}
+
+#mid-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
